@@ -1,0 +1,104 @@
+
+/*  */
+
+@media (max-width: 991px) {
+
+    .header .mega-menu .img img {
+        display: none;
+    }
+
+    /* start laning */
+    .landing .container .img {
+        display: none;
+    }
+
+    .landing .container .text {
+        text-align: center;
+    }
+
+    .landing .container .text p {
+        margin: 10px auto;
+    }
+
+
+
+    /* Start Skills */
+    .our-skills .container img {
+        display: none;
+    }
+
+
+
+    /* Start Work Steps */
+    .work-steps .container {
+        flex-direction: column;
+    }
+
+    .work-steps .image {
+        margin: 0 0 50px;
+    }
+
+    .work-steps .info .box {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .work-steps .info .box img {
+        margin: 0 0 40px;
+    }
+
+    /* Start Events */
+    .events img {
+        display: none;
+    }
+
+
+    /* Start Videos */
+    .videos .holder {
+        flex-direction: column;
+    }
+
+    .videos .holder .preview .info {
+        text-align: center;
+    }
+
+    .videos .holder .preview .info:hover {
+        background-color: #fafafa;
+        color: var(--main-c);
+    }
+
+
+    /* Start Discount */
+    .discount .image,
+    .discount .form {
+        flex-basis: 100%;
+    }
+    
+    .discount .content h2 {
+        margin-top: 25px;
+    }
+
+
+    /* Start Pricing */
+    .pricing .container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        text-align: center;
+    }
+
+    .pricing .box {
+        min-width: 100px;
+    }
+
+    .pricing .box:nth-of-type(1) {
+        top: 0px;
+    }
+    
+    .pricing .box:nth-of-type(3) {
+        top: 0px;
+    }
+
+
+
+}
